@@ -38,8 +38,8 @@ packages:
     resolution: {integrity: sha512-cZUy1gUvd4vttMic7C0lwPed8IYXWYp8kHIMatyhY8t8n3Cpw2ILczkV5pGMPqef7v0bLo0pOHrEHarsau2Ydg==}
     engines: {node: '>= 18'}
 
-  '@octokit/endpoint@9.0.4':
-    resolution: {integrity: sha512-DWPLtr1Kz3tv8L0UvXTDP1fNwM0S+z6EJpRcvH66orY6Eld4XBMCSYsaWp4xIm61jTWxK68BrR7ibO+vSDnZqw==}
+  '@octokit/endpoint@9.0.6':
+    resolution: {integrity: sha512-H1fNTMA57HbkFESSt3Y9+FBICv+0jFceJFPWDePYlR/iMGrwM5ph+Dd4XRQs+8X+PUFURLQgX9ChPfhJ/1uNQw==}
     engines: {node: '>= 18'}
 
   '@octokit/graphql@7.0.2':
@@ -49,11 +49,17 @@ packages:
   '@octokit/openapi-types@19.1.0':
     resolution: {integrity: sha512-6G+ywGClliGQwRsjvqVYpklIfa7oRPA0vyhPQG/1Feh+B+wU0vGH1JiJ5T25d3g1JZYBHzR2qefLi9x8Gt+cpw==}
 
-  '@octokit/plugin-paginate-rest@9.1.5':
-    resolution: {integrity: sha512-WKTQXxK+bu49qzwv4qKbMMRXej1DU2gq017euWyKVudA6MldaSSQuxtz+vGbhxV4CjxpUxjZu6rM2wfc1FiWVg==}
+  '@octokit/openapi-types@20.0.0':
+    resolution: {integrity: sha512-EtqRBEjp1dL/15V7WiX5LJMIxxkdiGJnabzYx5Apx4FkQIFgAfKumXeYAqqJCj1s+BMX4cPFIFC4OLCR6stlnA==}
+
+  '@octokit/openapi-types@24.2.0':
+    resolution: {integrity: sha512-9sIH3nSUttelJSXUrmGzl7QUBFul0/mB8HRYl3fOlgHbIWG+WnYDXU3v/2zMtAvuzZ/ed00Ei6on975FhBfzrg==}
+
+  '@octokit/plugin-paginate-rest@9.2.2':
+    resolution: {integrity: sha512-u3KYkGF7GcZnSD/3UP0S7K5XUFT2FkOQdcfXZGZQPGv3lm4F2Xbf71lvjldr8c1H3nNbF+33cLEkWYbokGWqiQ==}
     engines: {node: '>= 18'}
     peerDependencies:
-      '@octokit/core': '>=5'
+      '@octokit/core': '5'
 
   '@octokit/plugin-rest-endpoint-methods@10.2.0':
     resolution: {integrity: sha512-ePbgBMYtGoRNXDyKGvr9cyHjQ163PbwD0y1MkDJCpkO2YH4OeXX40c4wYHKikHGZcpGPbcRLuy0unPUuafco8Q==}
@@ -61,16 +67,22 @@ packages:
     peerDependencies:
       '@octokit/core': '>=5'
 
-  '@octokit/request-error@5.0.1':
-    resolution: {integrity: sha512-X7pnyTMV7MgtGmiXBwmO6M5kIPrntOXdyKZLigNfQWSEQzVxR4a4vo49vJjTWX70mPndj8KhfT4Dx+2Ng3vnBQ==}
+  '@octokit/request-error@5.1.1':
+    resolution: {integrity: sha512-v9iyEQJH6ZntoENr9/yXxjuezh4My67CBSu9r6Ve/05Iu5gNgnisNWOsoJHTP6k0Rr0+HQIpnH+kyammu90q/g==}
     engines: {node: '>= 18'}
 
-  '@octokit/request@8.1.6':
-    resolution: {integrity: sha512-YhPaGml3ncZC1NfXpP3WZ7iliL1ap6tLkAp6MvbK2fTTPytzVUyUesBBogcdMm86uRYO5rHaM1xIWxigWZ17MQ==}
+  '@octokit/request@8.4.1':
+    resolution: {integrity: sha512-qnB2+SY3hkCmBxZsR/MPCybNmbJe4KAlfWErXq+rBKkQJlbjdJeS85VI9r8UqeLYLvnAenU8Q1okM/0MBsAGXw==}
     engines: {node: '>= 18'}
 
   '@octokit/types@12.4.0':
     resolution: {integrity: sha512-FLWs/AvZllw/AGVs+nJ+ELCDZZJk+kY0zMen118xhL2zD0s1etIUHm1odgjP7epxYU1ln7SZxEUWYop5bhsdgQ==}
+
+  '@octokit/types@12.6.0':
+    resolution: {integrity: sha512-1rhSOfRa6H9w4YwK0yrf5faDaDTb+yLyBUKOCV4xtCDB5VmIPqd/v9yr9o6SAzOAlRxMiRiCic6JVM1/kunVkw==}
+
+  '@octokit/types@13.10.0':
+    resolution: {integrity: sha512-ifLaO34EbbPj0Xgro4G5lP5asESjwHracYJvVaPIyXMuiuXLlhic3S47cBdTb+jfODkTE5YtGCLt3Ay3+J97sA==}
 
   before-after-hook@2.2.3:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
@@ -85,8 +97,8 @@ packages:
     resolution: {integrity: sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==}
     engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
 
-  undici@5.28.2:
-    resolution: {integrity: sha512-wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==}
+  undici@5.29.0:
+    resolution: {integrity: sha512-raqeBD6NQK4SkWhQzeYKd1KmIG6dllBOTt55Rmkt4HtI9mwdWtJljnrXjAFUBLTSN67HWrOIZ3EPF4kjUw80Bg==}
     engines: {node: '>=14.0'}
 
   universal-user-agent@6.0.1:
@@ -110,13 +122,13 @@ snapshots:
     dependencies:
       '@actions/http-client': 2.2.0
       '@octokit/core': 5.0.2
-      '@octokit/plugin-paginate-rest': 9.1.5(@octokit/core@5.0.2)
+      '@octokit/plugin-paginate-rest': 9.2.2(@octokit/core@5.0.2)
       '@octokit/plugin-rest-endpoint-methods': 10.2.0(@octokit/core@5.0.2)
 
   '@actions/http-client@2.2.0':
     dependencies:
       tunnel: 0.0.6
-      undici: 5.28.2
+      undici: 5.29.0
 
   '@fastify/busboy@2.1.0': {}
 
@@ -126,51 +138,63 @@ snapshots:
     dependencies:
       '@octokit/auth-token': 4.0.0
       '@octokit/graphql': 7.0.2
-      '@octokit/request': 8.1.6
-      '@octokit/request-error': 5.0.1
+      '@octokit/request': 8.4.1
+      '@octokit/request-error': 5.1.1
       '@octokit/types': 12.4.0
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.1
 
-  '@octokit/endpoint@9.0.4':
+  '@octokit/endpoint@9.0.6':
     dependencies:
-      '@octokit/types': 12.4.0
+      '@octokit/types': 13.10.0
       universal-user-agent: 6.0.1
 
   '@octokit/graphql@7.0.2':
     dependencies:
-      '@octokit/request': 8.1.6
+      '@octokit/request': 8.4.1
       '@octokit/types': 12.4.0
       universal-user-agent: 6.0.1
 
   '@octokit/openapi-types@19.1.0': {}
 
-  '@octokit/plugin-paginate-rest@9.1.5(@octokit/core@5.0.2)':
+  '@octokit/openapi-types@20.0.0': {}
+
+  '@octokit/openapi-types@24.2.0': {}
+
+  '@octokit/plugin-paginate-rest@9.2.2(@octokit/core@5.0.2)':
     dependencies:
       '@octokit/core': 5.0.2
-      '@octokit/types': 12.4.0
+      '@octokit/types': 12.6.0
 
   '@octokit/plugin-rest-endpoint-methods@10.2.0(@octokit/core@5.0.2)':
     dependencies:
       '@octokit/core': 5.0.2
       '@octokit/types': 12.4.0
 
-  '@octokit/request-error@5.0.1':
+  '@octokit/request-error@5.1.1':
     dependencies:
-      '@octokit/types': 12.4.0
+      '@octokit/types': 13.10.0
       deprecation: 2.3.1
       once: 1.4.0
 
-  '@octokit/request@8.1.6':
+  '@octokit/request@8.4.1':
     dependencies:
-      '@octokit/endpoint': 9.0.4
-      '@octokit/request-error': 5.0.1
-      '@octokit/types': 12.4.0
+      '@octokit/endpoint': 9.0.6
+      '@octokit/request-error': 5.1.1
+      '@octokit/types': 13.10.0
       universal-user-agent: 6.0.1
 
   '@octokit/types@12.4.0':
     dependencies:
       '@octokit/openapi-types': 19.1.0
+
+  '@octokit/types@12.6.0':
+    dependencies:
+      '@octokit/openapi-types': 20.0.0
+
+  '@octokit/types@13.10.0':
+    dependencies:
+      '@octokit/openapi-types': 24.2.0
 
   before-after-hook@2.2.3: {}
 
@@ -182,7 +206,7 @@ snapshots:
 
   tunnel@0.0.6: {}
 
-  undici@5.28.2:
+  undici@5.29.0:
     dependencies:
       '@fastify/busboy': 2.1.0
 
