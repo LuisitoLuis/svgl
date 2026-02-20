@@ -15,8 +15,8 @@ importers:
         specifier: 1.36.1
         version: 1.36.1
       hono:
-        specifier: 4.11.4
-        version: 4.11.4
+        specifier: 4.11.10
+        version: 4.11.10
     devDependencies:
       '@cloudflare/workers-types':
         specifier: 4.20260114.0
@@ -423,8 +423,8 @@ packages:
   blake3-wasm@2.1.5:
     resolution: {integrity: sha512-F1+K8EbfOZE49dtoPtmxUQrpXaBIl3ICvasLh+nJta0xkz+9kF/7uet9fLnwKqhDrmj6g+6K3Tw9yQPUg2ka5g==}
 
-  cookie@1.0.2:
-    resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
+  cookie@1.1.1:
+    resolution: {integrity: sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==}
     engines: {node: '>=18'}
 
   detect-libc@2.1.2:
@@ -451,8 +451,8 @@ packages:
   glob-to-regexp@0.4.1:
     resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
 
-  hono@4.11.4:
-    resolution: {integrity: sha512-U7tt8JsyrxSRKspfhtLET79pU8K+tInj5QZXs1jSugO1Vq5dFj3kmZsRldo29mTBfcjDRVRXrEZ6LS63Cog9ZA==}
+  hono@4.11.10:
+    resolution: {integrity: sha512-kyWP5PAiMooEvGrA9jcD3IXF7ATu8+o7B3KCbPXid5se52NPqnOpM/r9qeW2heMnOekF4kqR1fXJqCYeCLKrZg==}
     engines: {node: '>=16.9.0'}
 
   kleur@4.1.5:
@@ -797,7 +797,7 @@ snapshots:
 
   blake3-wasm@2.1.5: {}
 
-  cookie@1.0.2: {}
+  cookie@1.1.1: {}
 
   detect-libc@2.1.2: {}
 
@@ -839,7 +839,7 @@ snapshots:
 
   glob-to-regexp@0.4.1: {}
 
-  hono@4.11.4: {}
+  hono@4.11.10: {}
 
   kleur@4.1.5: {}
 
@@ -952,7 +952,7 @@ snapshots:
       '@poppinss/colors': 4.1.5
       '@poppinss/dumper': 0.6.4
       '@speed-highlight/core': 1.2.7
-      cookie: 1.0.2
+      cookie: 1.1.1
       youch-core: 0.3.3
 
   zod@3.25.76: {}
